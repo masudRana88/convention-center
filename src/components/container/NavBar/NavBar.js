@@ -3,9 +3,9 @@ import { HiMenu } from "react-icons/hi";
 const NavBar = () => {
     return (
         // <!-- Navbar -->
-        <header class="bg-bgMain">
+        <div class="bg-bgMain z-50 w-full fixed ">
         <div class="container w-full mx-auto flex p-5 md:flex-row items-start justify-between ">
-          <a href='#!' class=" mb-4 md:mb-0 md:text-2xl text-lg">
+          <a href='#!' class=" md:mb-0 md:text-2xl text-lg">
           Abacus Convention Center
           </a>
           <nav class="md:ml-auto md:flex items-center text-base justify-center hidden">
@@ -37,7 +37,7 @@ const NavBar = () => {
         </div>
 
         </div>
-      </header>
+      </div>
 //   <!-- Navbar -->
     );
 };

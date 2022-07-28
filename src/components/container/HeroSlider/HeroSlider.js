@@ -29,7 +29,7 @@ const HeroSlider = () => {
             <div class="carousel-inner relative w-full overflow-hidden">
                 {/* Slid 1 */}
                 <div class="carousel-item active relative float-left w-full ">
-                    <div className='my-slider-1 my-slider my-slider-filter'>
+                    <div className='my-slider-1 my-slider my-slider-filter '>
                         {/* Slide body */}
                         <div className='flex-wrap flex items-center justify-center px-2 absolute bottom-14 left-2/4 -translate-x-1/2 md:w-[639px] w-full '>
                             <h3 className='text-4xl text-center text-white md:text-5xl'>The perfect venue for your next event</h3>
