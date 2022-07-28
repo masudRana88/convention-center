@@ -1,5 +1,6 @@
 import React from 'react';
-import bannar from '../../../images/banner.png'
+import './HeroSlider.scss'
+import { motion } from "framer-motion";
 const HeroSlider = () => {
     return (
         <div id="carouselExampleCaptions" class="carousel slide relative" data-bs-ride="carousel">
@@ -26,34 +27,46 @@ const HeroSlider = () => {
                 ></button>
             </div>
             <div class="carousel-inner relative w-full overflow-hidden">
-                <div class="carousel-item active relative float-left w-full">
-                <img
-                    src="https://mdbootstrap.com/img/Photos/Slides/img%20(15).jpg"
-                    class="block w-full"
-                    alt="..."
-                />
-                <div class="carousel-caption hidden md:block absolute text-center">
-                    <h5 class="text-xl">First slide label</h5>
-                    <p>Some representative placeholder content for the first slide.</p>
-                </div>
-                </div>
-
-                <div class="carousel-item relative float-left w-full">
-                    <div className='my-slider'>
-
+                {/* Slid 1 */}
+                <div class="carousel-item active relative float-left w-full ">
+                    <div className='my-slider-1 my-slider my-slider-filter'>
+                        {/* Slide body */}
+                        <div className='flex-wrap flex items-center justify-center px-2 absolute bottom-14 left-2/4 -translate-x-1/2 md:w-[639px] w-full '>
+                            <h3 className='text-4xl text-center text-white md:text-5xl'>The perfect venue for your next event</h3>
+                            <p className='mt-2 text-base text-center mx-auto text-white md:w-[70%]'>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit </p>
+                            <motion.button whileTap={{ scale: 0.98  }} type="button" class="mt-8 text-blue-600 mx-auto inline-block px-16 py-3 bg-white font-medium text-base leading-tight uppercase rounded-xl shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0  active:shadow-lg transition duration-150 ease-in-out">
+                                Book Now
+                            </motion.button>
+                        </div>
                     </div>
                 </div>
-                <div class="carousel-item relative float-left w-full">
-                <img
-                    src="https://mdbootstrap.com/img/Photos/Slides/img%20(23).jpg"
-                    class="block w-full"
-                    alt="..."
-                />
-                <div class="carousel-caption hidden md:block absolute text-center">
-                    <h5 class="text-xl">Third slide label</h5>
-                    <p>Some representative placeholder content for the third slide.</p>
+                {/* Slider 2 */}
+                <div class="carousel-item  relative float-left w-full ">
+                    <div className='my-slider my-slider-2 my-slider-filter'>
+                        {/* Slide body */}
+                        <div className='flex-wrap flex items-center justify-center px-2 absolute bottom-14 left-2/4 -translate-x-1/2 md:w-[639px] w-full '>
+                            <h3 className='text-4xl text-center text-white md:text-5xl'>The perfect venue for your next event</h3>
+                            <p className='mt-2 text-base text-center mx-auto text-white md:w-[70%]'>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit </p>
+                            <motion.button whileTap={{ scale: 0.98  }} type="button" class="mt-8 text-blue-600 mx-auto inline-block px-16 py-3 bg-white font-medium text-base leading-tight uppercase rounded-xl shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0  active:shadow-lg transition duration-150 ease-in-out">
+                                Book Now
+                            </motion.button>
+                        </div>
+                    </div>
                 </div>
+                {/* Slider 3 */}
+                <div class="carousel-item  relative float-left w-full ">
+                    <div className='my-slider my-slider-3 my-slider-filter'>
+                        {/* Slide body */}
+                        <div className='flex-wrap flex items-center justify-center px-2 absolute bottom-14 left-2/4 -translate-x-1/2 md:w-[639px] w-full '>
+                            <h3 className='text-4xl text-center text-white md:text-5xl'>The perfect venue for your next event</h3>
+                            <p className='mt-2 text-base text-center mx-auto text-white md:w-[70%]'>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit </p>
+                            <motion.button whileTap={{ scale: 0.98  }} type="button" class="mt-8 text-blue-600 mx-auto inline-block px-16 py-3 bg-white font-medium text-base leading-tight uppercase rounded-xl shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0  active:shadow-lg transition duration-150 ease-in-out">
+                                Book Now
+                            </motion.button>
+                        </div>
+                    </div>
                 </div>
+
             </div>
             <button
                 class="carousel-control-prev absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline left-0"
