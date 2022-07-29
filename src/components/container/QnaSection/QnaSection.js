@@ -5,8 +5,11 @@ const QnaSection = () => {
     return (
         <section className='w-full mt-16 md:mt-20'>
             <h3 className='mb-20 text-3xl font-bold text-center md:text-4xl'>Frequently Asked Questions</h3>
-            <div className='flex flex-col items-center justify-center gap-6 px-4 md:flex-row md:px-0'>
-                <div className='flex justify-end w-full md:w-1/2'>
+            <div className='flex flex-col items-center justify-center px-4 gap-7 md:flex-row '>
+                <div className='flex justify-center w-full md:w-1/2 md:hidden'>
+                    <img src={people} alt='' className='h-auto shadow-lg w-[546px]'/>
+                </div>
+                <div className='flex justify-center w-full md:justify-end md:w-1/2'>
                     <div className='w-[552px]'>
                         <div class="accordion accordion-flush" id="accordionFlushExample">
                         {
@@ -43,7 +46,7 @@ const QnaSection = () => {
                         </div>
                     </div>
                 </div>
-                <div className='flex justify-start w-full md:w-1/2'>
+                <div className='justify-start hidden w-full md:flex md:w-1/2'>
                     <img src={people} alt='' className='h-auto shadow-lg w-[546px]'/>
                 </div>
             </div>

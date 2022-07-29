@@ -15,11 +15,13 @@ module.exports = {
         bgBlue : '#3F87F5',
         textGray : '#6C6C6C',
         textGray2 : '#747474',
+        textGrayLight : '#D9DBE1',
         textClip: "#505050",
         BgChack : "#5243c22c",
         CardBtnBg: "#f496d259",
         CardBg: "#3F87F5",
         hotRed: "#FF4E4E",
+        bgBlack: "#0B0D17"
       }
     },
   },
