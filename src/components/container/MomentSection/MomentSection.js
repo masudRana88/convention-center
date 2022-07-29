@@ -16,12 +16,12 @@ const MomentSection = () => {
                 <p className='w-full mb-3 text-base text-textGray md:w-1/2'>
                     Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
                 </p>
-                <div class="flex space-x-2 justify-center md:justify-start w-full ">
+                <div className="flex space-x-2 justify-center md:justify-start w-full ">
                     <button
                         type="button"
                         data-mdb-ripple="true"
                         data-mdb-ripple-color="light"
-                        class="inline-block px-6 py-2.5 bg-bgBlue text-white font-medium text-xs leading-tight uppercase rounded shadow-md  hover:shadow-lg  focus:shadow-lg focus:outline-none focus:ring-0  active:shadow-lg transition duration-150 ease-in-out"
+                        className="inline-block px-6 py-2.5 bg-bgBlue text-white font-medium text-xs leading-tight uppercase rounded shadow-md  hover:shadow-lg  focus:shadow-lg focus:outline-none focus:ring-0  active:shadow-lg transition duration-150 ease-in-out"
                     >Explore our album <IoIosArrowRoundForward className='inline ml-1 text-xl'/></button>
                 </div>
                 {/* clip */}
@@ -44,12 +44,12 @@ const MomentSection = () => {
             </div>
             <div className='flex flex-col justify-center w-full gap-3 px-5 md:hidden md:px-0 md:justify-end '>
                 <img src={wedding} alt='' className='h-auto shadow-lg'/>
-                <div class="flex space-x-2 justify-center md:justify-start w-full ">
+                <div className="flex space-x-2 justify-center md:justify-start w-full ">
                     <button
                         type="button"
                         data-mdb-ripple="true"
                         data-mdb-ripple-color="light"
-                        class="inline-block px-6 py-2.5 bg-bgBlue text-white font-medium text-xs leading-tight uppercase rounded shadow-md  hover:shadow-lg  focus:shadow-lg focus:outline-none focus:ring-0  active:shadow-lg transition duration-150 ease-in-out"
+                        className="inline-block px-6 py-2.5 bg-bgBlue text-white font-medium text-xs leading-tight uppercase rounded shadow-md  hover:shadow-lg  focus:shadow-lg focus:outline-none focus:ring-0  active:shadow-lg transition duration-150 ease-in-out"
                     >Explore our album <IoIosArrowRoundForward className='inline ml-1 text-xl'/></button>
                 </div>
             </div>

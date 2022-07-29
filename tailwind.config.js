@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       boxShadow: {
         'cardShadow': '0px 42px 34px rgba(63, 135, 245, 0.25)',
+        'commentShadow': '0px 12px 30px rgba(0, 0, 0, 0.13)',
       },
       backgroundImage: {
         'cardWatermark': "url('/src/images/icons/watermark.svg')",
@@ -13,6 +14,7 @@ module.exports = {
         bgMain : '#E5E5E5',
         bgBlue : '#3F87F5',
         textGray : '#6C6C6C',
+        textGray2 : '#747474',
         textClip: "#505050",
         BgChack : "#5243c22c",
         CardBtnBg: "#f496d259",
